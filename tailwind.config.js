@@ -5,7 +5,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        cinema: "url('/img/cinema.png')",
+        hotel: "url('/img/hotels.png')",
+        rickMorty: "url('/img/rickMorty.png')",
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
