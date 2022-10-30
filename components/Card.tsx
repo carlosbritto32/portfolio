@@ -10,7 +10,7 @@ interface props {
 
 const Card = ({ title, description, URL, image, github }: props) => {
   return (
-    <div className="text-sm text-justify bg-gray-800  w-[300px] h-[500px]  pb-3  rounded-xl shadow-lg  text-white border-2 font-medium overflow-hidden mb-6 md:flex md:justify-between md:w-full md:h-auto md:p-0 md:pr-3 lg:w-[900px]">
+    <div className="text-sm text-justify bg-gray-800  w-[300px] h-[500px]  pb-3  rounded-xl shadow-xl border-gray-500  text-white border-2 font-medium overflow-hidden mb-6 md:flex md:justify-between md:w-full md:h-auto md:p-0 md:pr-3 lg:w-[900px]">
       <a href={URL}>
         <Image
           className=" inset-y-0 inset-x-0"

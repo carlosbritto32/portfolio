@@ -23,6 +23,14 @@ let projects = [
     github: "https://github.com/carlosbritto32/rick-and-morty-crud",
     image: "/img/rickMorty.png",
   },
+  {
+    title: "Pets Fight Game",
+    description:
+      "This app iIt's a game, where you have to select a pet between 3 options, then you have to fight vs another pet, you have 5 attack options, so lets Fight! it was created using basis technologies like html Css and javascript,it uses object oriented programing to create the characters with their names, img, attacks, etc.",
+    URL: "https://carlosbritto32.github.io/Pets-fight/",
+    github: "https://github.com/carlosbritto32/Pets-fight",
+    image: "/img/pet-fight.png",
+  },
 ];
 
 export default projects;
